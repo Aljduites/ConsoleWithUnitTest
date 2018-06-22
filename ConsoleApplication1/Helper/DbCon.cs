@@ -36,9 +36,9 @@ namespace ConsoleApplication1.Helper
                     sec = true;
                 }
 
-                String constring = String.Format("{0}", "server = " + model[0].server + "; database = " + model[0].database + "; uid = "+ model[0].usrID +
-                    "; password = " + model[0].passwd + "; pooling = " + sec + "; min pool size= " + model[0].minCon + "; max pool size=" + model[0].maxCon +
-                    ";connection lifetime=0; connection timeout = " + model[0].tout + ";Allow Zero Datetime=true; Convert Zero DateTime=true;SslMode=none");
+                String constring = String.Format("server = {0}; database = {1}; uid = {2}; password = {3}; pooling = {4}; min pool size= {5}; " + 
+                    "max pool size= {6};connection lifetime=0; connection timeout = {7};Allow Zero Datetime=true; Convert Zero DateTime=true;SslMode=none",
+                    model[0].server, model[0].database, model[0].usrID, model[0].passwd, sec, model[0].minCon, model[0].maxCon, model[0].tout);
 
                 connection = new MySqlConnection(constring);
             }
@@ -56,10 +56,10 @@ namespace ConsoleApplication1.Helper
                 {
                     sec = true;
                 }
-                String constring = String.Format("{0}", "server = " + server + "; database = " + db + "; uid = " + uID +
-                "; password = " + pwd + "; pooling = " + sec + "; min pool size= " + minCon + "; max pool size=" + maxCon +
-                ";connection lifetime=0; connection timeout = " + tout + ";Allow Zero Datetime=true; Convert Zero DateTime=true;SslMode=none");
-
+                String constring = String.Format("server = {0}; database = {1}; uid = {2}; password = {3}; pooling = {4}; min pool size= {5}; " +
+                "max pool size= {6};connection lifetime=0; connection timeout = {7};Allow Zero Datetime=true; Convert Zero DateTime=true;SslMode=none",
+                server, db, uID, pwd, sec, minCon, maxCon, tout);
+ 
                 connection = new MySqlConnection(constring);
             }
             catch (Exception ex)
