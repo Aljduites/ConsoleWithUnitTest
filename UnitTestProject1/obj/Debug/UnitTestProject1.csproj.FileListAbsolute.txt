@@ -1,0 +1,15 @@
+E:\Visual Studio Projects\ConsoleApplication1\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+E:\Visual Studio Projects\ConsoleApplication1\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+E:\Visual Studio Projects\ConsoleApplication1\UnitTestProject1\bin\Debug\ConsoleApplication1.exe
+E:\Visual Studio Projects\ConsoleApplication1\UnitTestProject1\bin\Debug\MySql.Data.dll
+E:\Visual Studio Projects\ConsoleApplication1\UnitTestProject1\bin\Debug\log4net.dll
+E:\Visual Studio Projects\ConsoleApplication1\UnitTestProject1\bin\Debug\Dapper.dll
+E:\Visual Studio Projects\ConsoleApplication1\UnitTestProject1\bin\Debug\Google.Protobuf.dll
+E:\Visual Studio Projects\ConsoleApplication1\UnitTestProject1\bin\Debug\ConsoleApplication1.pdb
+E:\Visual Studio Projects\ConsoleApplication1\UnitTestProject1\bin\Debug\MySql.Data.xml
+E:\Visual Studio Projects\ConsoleApplication1\UnitTestProject1\bin\Debug\log4net.xml
+E:\Visual Studio Projects\ConsoleApplication1\UnitTestProject1\bin\Debug\Dapper.xml
+E:\Visual Studio Projects\ConsoleApplication1\UnitTestProject1\bin\Debug\Google.Protobuf.xml
+E:\Visual Studio Projects\ConsoleApplication1\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+E:\Visual Studio Projects\ConsoleApplication1\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+E:\Visual Studio Projects\ConsoleApplication1\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
